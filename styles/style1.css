@@ -9,6 +9,11 @@
 header{
    background-color: #FF900E1A;
 }
+.section-title{
+   color:  #131313;
+   font-size: 2.7rem;
+   font-weight: 700;
+}
 .btn-praimary{
    color: #FFF;
    text-align: center;
@@ -28,12 +33,7 @@ nav{
    align-items: center;
    padding: 20px 50px;
 }
-.nav-title{
-   color:  #131313;
-   text-align: center;
-   font-size: 2.7rem;
-   font-weight: 700;
-}
+
 nav ul{
    display: flex;
 }
@@ -163,4 +163,25 @@ main{
     .team-content{
       margin-top: 10px;
    }
+}
+/* fact-section */
+.card-container{
+   display: flex;
+   justify-content: space-around;
+}
+.card-container .card{
+   border-radius: 8px;
+   border: 1px solid #FF900E;
+   text-align:center;
+   padding:40px 40px;
+}
+.card-container .card .card-stats{
+   color:#424242;
+   font-size: 3rem;
+   font-weight: 600;
+}
+.card-container .card .card-title{
+   color:#727272;
+   font-size: 1.25rempx;
+   font-weight: 600;
 }
