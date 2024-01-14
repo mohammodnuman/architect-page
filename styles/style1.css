@@ -1,0 +1,135 @@
+ /* Work-sans font from g-font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* shared styles */
+*{
+   margin: 0;
+   padding: 0;
+   font-family: "Work Sans", sans-serif;
+}
+header{
+   background-color: #FF900E1A;
+}
+.btn-praimary{
+   color: #FFF;
+   text-align: center;
+   font-size: 1.25rem;
+   font-weight: 600;
+   border:0;
+   border-radius: 8px;
+   background: #FF900E;
+   padding: 20px 25px;
+   margin: 20px 0;
+   cursor: pointer;
+}
+/* navstyle */
+nav{
+   display: flex;;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 50px;
+}
+.nav-title{
+   color:  #131313;
+   text-align: center;
+   font-size: 2.7rem;
+   font-weight: 700;
+}
+nav ul{
+   display: flex;
+}
+nav ul li{
+   list-style:none;
+   margin-right: 40px;
+   color:#424242;
+   text-align: center;
+   font-size: 1rem;
+   font-weight: 500;
+}
+nav ul li a{
+   text-decoration: none;
+}
+/* banner styles */
+.banner-content{
+   max-width: 800px;
+   margin: 0 auto;
+   text-align: center;
+   padding-right: 50px;
+   padding-left: 50px;
+}
+.banner-title{
+   color:#131313;
+   text-align: center;
+   font-size: 4rem;
+   font-weight: 700;
+}
+.banner-para{
+   color:#727272;
+   text-align: center;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+}
+.banner-img{
+   width: 100%;
+   margin: 0px auto;
+}
+/* responsive */
+/* mobile-device-responsivee */
+@media screen and (max-width:576px) {
+   header{
+      padding: 20px;
+   }   
+   nav{
+      flex-direction: column;
+   }
+}
+/* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+   header{
+      padding:30px
+   } 
+   nav{
+      flex-direction: column;
+    }
+}
+/* main-section`s style */
+main{
+   max-width: 1400px;
+   margin: 0px auto;
+}
+/* team-style */
+.team-container{
+   display: flex;
+   align-items: center;
+}
+.team-imgs-container{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 1.5rem;
+}
+.team-content{
+   padding-left: 70px;
+   padding-right: 70px;
+}
+.firs{
+   color:#727272;
+   font-size:3rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   }
+.second{
+   color:#131313;
+   font-size: 3rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+.third{
+   color: #FF900E;
+   font-family: Work Sans;
+   font-size: 3rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
